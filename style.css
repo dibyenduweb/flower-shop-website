@@ -65,6 +65,7 @@ body {
   width: 660px;
   margin-left: 430px;
 }
+/* Flower section */
 .flower-container {
   display: flex;
   justify-content: space-around;
@@ -105,6 +106,7 @@ body {
   text-decoration-line: underline;
   margin-top: 8px;
 }
+/* delivery section css */
 .delivery-container {
   display: flex;
   align-items: center;
@@ -131,6 +133,7 @@ body {
   width: 70px;
   height: 70px;
 }
+/* deal section css */
 .deal-section {
   display: flex;
   align-items: center;
@@ -140,6 +143,7 @@ body {
   margin-top: 50px;
   background: rgba(229, 84, 115, 0.05);
 }
+
 .deal-container {
   width: 500px;
 }
@@ -147,6 +151,9 @@ body {
   color: #272727;
   font-size: 35px;
   font-weight: bold;
+}
+.deal-of{
+ color:#E55473;
 }
 .deal-description {
   color: rgba(39, 39, 39, 0.6);
@@ -160,6 +167,8 @@ body {
   height: 420px;
   margin-right: 150px;
 }
+
+/* insta section css  */
 .insta-title {
   color: #272727;
   text-align: center;
@@ -188,6 +197,7 @@ body {
   height: 351px;
   background: lightgray;
 }
+/* get section css */
 .get-section{
     display: flex;
     align-items: center;
@@ -224,10 +234,11 @@ line-height: 30px;
   display: flex;
 }
 .get-input{
-width: 390px;
-height: 60px;
+width: 380px;
+height: 40px;
 border: none;
 background: #FFF;
+padding: 10px;
 }
 .get-btn{
 border-radius: 8px;
@@ -237,4 +248,37 @@ height: 60px;
 border: none;
 margin-left: 20px;
 color: white;
+}
+/* footer section css */
+.footer-container{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background: #111010;
+  text-align: center;
+  color: #FFF;
+}
+.footer-title{
+color: #ffffff;
+font-size: 48px;
+font-weight: 800;
+padding-top: 60px;
+}
+.shop{
+  color: #E55473;
+}
+.footer-discription{
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 17px;
+width: 660px;
+margin-left: 430px;
+}
+.footer-copy{
+color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 13px;
+font-weight: 400;
+margin-top: 30px;
 }
