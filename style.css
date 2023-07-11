@@ -42,7 +42,7 @@ body {
   font-size: 80px;
   font-weight: 600;
   width: 700px;
-  height: 40vh;
+  height: 44vh;
   flex-shrink: 0;
   margin-left: 50px;
 }
@@ -177,7 +177,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   background: rgba(255, 191, 0, 0.05);
-  margin: 100px;
+  margin-top: 50px;
   border-radius: 8px;
 }
 .tree-containt {
