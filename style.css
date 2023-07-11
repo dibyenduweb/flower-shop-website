@@ -111,7 +111,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background: red;
   width: 1310px;
   height: 200px;
   flex-shrink: 0;
@@ -167,6 +166,44 @@ body {
   height: 420px;
   margin-right: 150px;
 }
+/* tree css */
+.tree-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(255, 191, 0, 0.05);
+    margin: 100px;
+    border-radius: 8px;
+}
+.tree-containt{
+  width: 800px;
+}
+.tree-title{
+color: #00ff62;
+text-align: center;
+margin-left: 60px;
+font-size: 40px;
+font-weight:800;
+width: 700px;
+
+}
+.tree-description{
+  color: rgba(23, 7, 7, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.pri-btn{
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  color: white;
+  border: 0px;
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+
 
 /* insta section css  */
 .insta-title {
